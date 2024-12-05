@@ -1,5 +1,45 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .navbar {
     background-color: orchid;
     height: 80px;
     width: 100%;
-    }
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.navbar-notificações {
+    margin-right: 20px; 
+}
+
+.navbar-notificações i {
+    color: #696969;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os links */
+    list-style: none; /* Remove os pontos da lista */
+}
+
+.navbar-inicio,
+.navbar-perfil,
+.navbar-consultas,
+.navbar-registo {
+    
+    text-decoration: none;
+    color: #696969;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-left: auto;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
